@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tako Naidu</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/Desktop_View.css" />
+    <link rel="stylesheet" href="css/Mobile_View.css" />
+    <link rel="stylesheet" href="css/Fonts.css" />
+    <script src="js/Effects.js"></script>
+  </head>
+  <body>
+    <!-- Page's Background -->
+    <div id="background-transparency"></div>
+    <div id="background"></div>
+    <div id="menu-background"></div>
+    <div id="about-background"></div>
+    <div id="contact-background"></div>
+    <!-- Header and NavBar -->
+    <div id="header-logo" class="header-logo-size">
+      <img src="img/tako_logo.png" />
+    </div>
+    <div id="header">
+      <h1><br /><br /></h1>
+    </div>
+    <div id="header-bottom" class="header-bottom-position">
+      <h1><br /><br /><br /></h1>
+    </div>
+    <div>
+      <p class="invisible-text-25px">Text</p>
+      <button
+        id="header-contents"
+        class="header-contents-home"
+        onclick="scrollToHome()"
+      >
+        Home
+      </button>
+      <button
+        id="header-contents"
+        class="header-contents-menu"
+        onclick="scrollToMenu()"
+      >
+        Menu
+      </button>
+      <button
+        id="header-contents"
+        class="header-contents-about"
+        onclick="scrollToAbout()"
+      >
+        About Us
+      </button>
+      <button
+        id="header-contents"
+        class="header-contents-contact"
+        onclick="scrollToContact()"
+      >
+        Our Contact
+      </button>
+    </div>
+
+    <!-- Main Page's Content and NavBar Scroll Effect -->
+    <!-- Home -->
+    <div>
+      <div id="scroll-to-home"><p class="invisible-text-10px">Text</p></div>
+      <p id="main-content-home" class="home-text"></p>
+      <!-- Menu -->
+      <div id="scroll-to-menu"><p class="invisible-text-50px">Text</p></div>
+      <p id="price">
+        Get 4 Delicious Pieces for Just ₱49!<br />Valid on all menu items below.
+        Enjoy anytime!
+      </p>
+      <!-- Menu Scroll -->
+      <div id="scroll-container">
+        <button id="scroll-button-left" class="scroll-button">&gt;</button>
+        <button id="scroll-button-right" class="scroll-button">&gt;</button>
+        <div id="margin">
+          <div id="main-content-menu" class="menu-text">
+            <div class="menu-items">
+              <p><img src="img/crab-outline.png" /><br />Crab Takoyaki<br /></p>
+              <p>
+                <img src="img/octopus-outline.png" /><br />Octobits Takoyaki
+              </p>
+              <p>
+                <img src="img/crab-spicy-outline.png" /><br />Crab Takoyaki
+                Spicy
+              </p>
+              <p>
+                <img src="img/octopus-spicy-outline.png" /><br />Octobits
+                Takoyaki Spicy
+              </p>
+              <!-- Cloned items for seamless loop -->
+              <p><img src="img/crab-outline.png" /><br />Crab Takoyaki<br /></p>
+              <p>
+                <img src="img/octopus-outline.png" /><br />Octobits Takoyaki
+              </p>
+              <p>
+                <img src="img/crab-spicy-outline.png" /><br />Crab Takoyaki
+                Spicy
+              </p>
+              <p>
+                <img src="img/octopus-spicy-outline.png" /><br />Octobits
+                Takoyaki Spicy
+              </p>
+              <p><img src="img/crab-outline.png" /><br />Crab Takoyaki</p>
+              <p>
+                <img src="img/octopus-outline.png" /><br />Octobits Takoyaki
+              </p>
+              <p>
+                <img src="img/crab-spicy-outline.png" /><br />Crab Takoyaki
+                Spicy
+              </p>
+              <p>
+                <img src="img/octopus-spicy-outline.png" /><br />Octobits
+                Takoyaki Spicy
+              </p>
+              <p><img src="img/crab-outline.png" /><br />Crab Takoyaki</p>
+              <p>
+                <img src="img/octopus-outline.png" /><br />Octobits Takoyaki
+              </p>
+              <p>
+                <img src="img/crab-spicy-outline.png" /><br />Crab Takoyaki
+                Spicy
+              </p>
+              <p>
+                <img src="img/octopus-spicy-outline.png" /><br />Octobits
+                Takoyaki Spicy
+              </p>
+              <p><img src="img/crab-outline.png" /><br />Crab Takoyaki</p>
+              <p>
+                <img src="img/octopus-outline.png" /><br />Octobits Takoyaki
+              </p>
+              <p>
+                <img src="img/crab-spicy-outline.png" /><br />Crab Takoyaki
+                Spicy
+              </p>
+              <p>
+                <img src="img/octopus-spicy-outline.png" /><br />Octobits
+                Takoyaki Spicy
+              </p>
+              <p><img src="img/crab-outline.png" /><br />Crab Takoyaki</p>
+              <p>
+                <img src="img/octopus-outline.png" /><br />Octobits Takoyaki
+              </p>
+              <p>
+                <img src="img/crab-spicy-outline.png" /><br />Crab Takoyaki
+                Spicy
+              </p>
+              <p>
+                <img src="img/octopus-spicy-outline.png" /><br />Octobits
+                Takoyaki Spicy
+              </p>
+              <p><img src="img/crab-outline.png" /><br />Crab Takoyaki</p>
+              <p>
+                <img src="img/octopus-outline.png" /><br />Octobits Takoyaki
+              </p>
+              <p>
+                <img src="img/crab-spicy-outline.png" /><br />Crab Takoyaki
+                Spicy
+              </p>
+              <p>
+                <img src="img/octopus-spicy-outline.png" /><br />Octobits
+                Takoyaki Spicy
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About -->
+      <div id="scroll-to-about"><p class="invisible-text-65px">Text</p></div>
+      <div id="main-content-about">
+        <p id="about-us">
+          &nbsp;&nbsp;&nbsp;&nbsp;At Tako Naidu, we bring authentic Japanese
+          Takoyaki to your neighborhood. We serve fresh and delicious takoyaki
+          daily from 5 P.M. to 11 P.M. We accept payment methods like cash and
+          GCash transactions. You can also book riders to get your order.
+        </p>
+        <img
+          class="about-image"
+          src="img/logo_face_with-text_transparent.png"
+        />
+      </div>
+      <!-- Contact -->
+      <p class="invisible-text-100px">Text</p></div>
+      <p class="invisible-text-100px">Text</p>
+      <div id="scroll-to-contact"></div>
+      <div id="main-content-contact">
+        <div id="contact-text">
+          <p class="invisible-text-7px">Text</p>
+          ●Phone:&nbsp;<a href="sms:+09500300030" id="contact-link">09500300030</a><br />
+          ●Email:&nbsp;<a href="mailto:takonaidu@gmail.com" id="contact-link">takonaidu@gmail.com</a><br />
+          ●Facebook:&nbsp;<a href="https://www.facebook.com/takonaidu" id="contact-link">https://www.facebook.com/takonaidu</a>
+          <br />
+          <br />
+        </div>
+        <!-- Footer -->
+        <div id="footer">
+          <h1><br /><br /></h1>
+        </div>
+      </div>
+    </div>
+    <!-- Loading Screen -->
+    <div id="bg-anim-slide-out"></div>
+
+    <div id="logo-slide-in">
+      <img src="img/logo_face_margin_top.png" class="logo-size" />
+    </div>
+
+    <div id="text-slide-in">
+      <img
+        src="img/tako_naidu_text_white_margin_bottom.png"
+        class="text-size"
+      />
+    </div>
+  </body>
+</html>

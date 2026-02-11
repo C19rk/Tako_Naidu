@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "AKUMARU-PersonalUse";
+  src: url("../fonts/AKUMARU-PersonalUse.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CatCafe";
+  src: url("../fonts/CatCafe.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HakuboFreeTrial";
+  src: url("../fonts/HakuboFreeTrial.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HIROMISAKE";
+  src: url("../fonts/HIROMISAKE.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JiayouAkira-MAVEY";
+  src: url("../fonts/JiayouAkira-MAVEY.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MAREKA-PersonalUse";
+  src: url("../fonts/MAREKA-PersonalUse.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Niagato";
+  src: url("../fonts/Niagato.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nijikonjapan";
+  src: url("../fonts/Nijikonjapan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OtsutomeFont_Ver3_16";
+  src: url("../fonts/OtsutomeFont_Ver3_16.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pomeranian-Regular";
+  src: url("../fonts/Pomeranian-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RampartOne-Regular";
+  src: url("../fonts/RampartOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Shikamaru";
+  src: url("../fonts/Shikamaru.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SigokaeDemo";
+  src: url("../fonts/SigokaeDemo.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TAKOYAKI";
+  src: url("../fonts/TAKOYAKI.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Takoyaki2";
+  src: url("../fonts/Takoyaki2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TheLastShuriken";
+  src: url("../fonts/TheLastShuriken.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TONERI-PersonalUse";
+  src: url("../fonts/TONERI-PersonalUse.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yoruka";
+  src: url("../fonts/Yoruka.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "Example";
+  src: url("") format("opentype"),
+    url("") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
